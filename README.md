@@ -1,5 +1,6 @@
 # OHW5nfs
 Repository for Otus Linadmin Prof HomeWork #5 on Network FileSystem 
+
 Текст ДЗ: 
 Основная часть:
 - `vagrant up` должен поднимать 2 настроенных виртуальных машины
@@ -15,5 +16,6 @@ Repository for Otus Linadmin Prof HomeWork #5 on Network FileSystem
 с использованием NFSv3 по протоколу UDP;
 - firewall должен быть включен и настроен как на клиенте,
 так и на сервере.
+
 Для самостоятельной реализации (задание*):
 - настроить аутентификацию через KERBEROS с использованием NFSv4.
