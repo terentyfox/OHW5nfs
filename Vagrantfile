@@ -17,6 +17,6 @@ config.vm.define "nfsc" do |nfsc|
 nfsc.vm.network "private_network", ip: "192.168.50.11",
 virtualbox__intnet: "net1"
 nfsc.vm.hostname = "nfsc"
-nfsc.vm.provision "shell", path: "nfsc_scriptNext.sh"
+nfsc.vm.provision "shell", path: "nfsc_script.sh"
 end
 end
