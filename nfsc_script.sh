@@ -15,7 +15,7 @@ After = network-online.service
 What = 192.168.50.10:/srv/share
 Where = /mnt/share
 Type = nfs
-Options = defaults
+Options = vers=3,proto=udp
 
 [Install]
 WantedBy = multi-user.target
@@ -31,7 +31,7 @@ After = network-online.service
 What = 192.168.50.10:/srv/share/_upload_
 Where = /mnt/share/_upload_
 Type = nfs
-Options = defaults
+Options = vers=3,proto=udp
 
 [Install]
 WantedBy = multi-user.target

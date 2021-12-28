@@ -8,7 +8,7 @@
   systemctl start nfs-server
   systemctl enable firewalld
   systemctl start firewalld
-  firewall-cmd --permanent --add-service={mountd,nfs,rpc-bind}
+  firewall-cmd --permanent --add-service={mountd,nfs3,rpc-bind}
   firewall-cmd --reload
   
   echo 'Creating & exporting shared directories'
